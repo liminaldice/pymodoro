@@ -1,0 +1,12 @@
+from playsound3 import playsound
+
+def play_sound(file_path):
+    try:
+        playsound(file_path)
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+if __name__ == "__main__":
+    sound_file_path = 'notification-sound.mp3'
+
+    play_sound(sound_file_path)
