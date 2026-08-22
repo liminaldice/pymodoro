@@ -1,3 +1,5 @@
+# Rewritten to have a cleaner switch case prompt
+# Needs to use venv python file to execute the playsound3 module
 import sys
 import time
 # from playsound3 import playsound
