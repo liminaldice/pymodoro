@@ -6,4 +6,5 @@ A simple no-nonsense pomodoro timer made in Python.
 - Once solved, playsound3 module can be used.
 - Start migrating terminal functionality to GUI.
 - Make a total time pool to keep track of worked time.
+- Give proper credit and tweak project license.
 
