@@ -1,0 +1,8 @@
+# pymodoro
+A simple no-nonsense pomodoro timer made in Python.
+
+* ToDo's
+- Solve need to execute code with venv python executable.
+- Once solved, playsound3 module can be used.
+- Start migrating terminal functionality to GUI.
+
