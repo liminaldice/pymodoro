@@ -2,7 +2,7 @@
 # Needs to use venv python file to execute the playsound3 module
 import sys
 import time
-# from playsound3 import playsound
+from playsound3 import playsound
 
 class Program():
     counter = 0
@@ -22,7 +22,7 @@ class Program():
                 print(f"\nTerminated.")
             case _:
                 print("\nPlease enter a valid answer.")
-            
+
     def prompt_rest(self) -> None:
         answer = input("\nStart rest? Y/n: ").lower()
         match answer:
