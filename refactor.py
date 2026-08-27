@@ -75,6 +75,8 @@ class Program():
             self.prompt_timer()
                 
     def notification_sound(self) -> None:
-        print("\nsound")
+        sound = playsound("/home/mint/Projects/Python-Pomodoro/src/sounds/notification-sound.mp3")
+        sound.stop()
+        time.sleep(1)
 
 Program()

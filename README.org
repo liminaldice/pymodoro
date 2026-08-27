@@ -5,4 +5,5 @@ A simple no-nonsense pomodoro timer made in Python.
 - Solve need to execute code with venv python executable.
 - Once solved, playsound3 module can be used.
 - Start migrating terminal functionality to GUI.
+- Make a total time pool to keep track of worked time.
 
