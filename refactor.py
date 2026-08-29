@@ -1,10 +1,12 @@
 # Rewritten to have a cleaner switch case prompt
 # Needs to use venv python file to execute the playsound3 module
-# Command: .venv/bin/python3.12 refactor.py
+# .venv/bin/python3.12 refactor.py 
 
 import sys
 import time
-from playsound3 import playsound
+from tkinter import *
+from tkinter import ttk
+# from playsound3 import playsound
 
 class Program():
     counter = 0
@@ -77,8 +79,25 @@ class Program():
             self.prompt_timer()
                 
     def notification_sound(self) -> None:
-        sound = playsound("/home/mint/Projects/Python-Pomodoro/src/sounds/notification-sound.mp3")
-        sound.stop()
-        time.sleep(1)
+        # sound = playsound("/home/mint/Projects/Python-Pomodoro/src/sounds/notification-sound.mp3")
+        # sound.stop()
+        # time.sleep(1)
+        print("\nSound")
+
+
+# --- GUI ---
+"""
+root  = Tk()
+root.title("Pymodoro")
+
+mainframe = ttk.Frame(root, padding=(3, 3, 12, 12))
+mainframe.grid(column=0, row=0, sticky=(N, W, E, S))
+
+ttk.Button(mainframe, text="|>")
+ttk.Button.pack()
+
+
+root.mainloop()
+"""
 
 Program()
